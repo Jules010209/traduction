@@ -49,4 +49,4 @@ TO = "en" (english)
 >## Github
 <br>
 
-[Jules010209](https://github.com/Jules010209) - [Yokachi]()
+[Jules010209](https://github.com/Jules010209) - [Yokachi](https://github.com/Yokachi)
