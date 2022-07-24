@@ -7,10 +7,10 @@ This module allows you to translate text into more than 103 different languages.
 ## Translate a Languages
 
 ```js
-const translate = require('traduction');
+const { translate } = require('traduction');
 
 (async () => {
-  console.log(await translate('Salut', 'fr', 'en'));
+  console.log(await translate('Comment vas-tu ?', 'fr', 'en'));
 })();
 ```
 
@@ -32,14 +32,11 @@ How are you ?
   console.log(await translate('Salut', 'fr', 'en'));
 })();
 
-```
-
-### Params :
-
-```js
-TEXT = "Salut"
-FROM = "fr" (french)
-TO = "en" (english)
+/**
+ * @param { string } 'Salut'
+ * @param { string } 'fr'
+ * @param { string } 'en'
+**/
 ```
 
 <br>
